@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "ITZ FIZZ",
+  "url": "https://nakkalaragamanjari01-hash.github.io/itz-fizz-hero/",
+  "description": "ITZ FIZZ is a modern creative website featuring futuristic design, animated elements, and a responsive layout."
+}
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ITZ FIZZ | Creative Website</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #080808;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.logo span,
+h1 span,
+h2 span {
+    color: #c6ff00;
+}
+
+.menu {
+    border: 1px solid #555;
+    border-radius: 25px;
+    padding: 10px 18px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero {
+    min-height: 100vh;
+    background: radial-gradient(circle, #222, #080808 70%);
+}
+
+.content {
+    text-align: center;
+    padding: 55px 7% 40px;
+}
+
+.small-text {
+    color: #c6ff00;
+    letter-spacing: 5px;
+    font-size: 12px;
+    margin-bottom: 22px;
+}
+
+h1 {
+    font-size: clamp(55px, 12vw, 130px);
+    font-weight: 900;
+    line-height: 1;
+}
+
+.description {
+    color: #aaa;
+    max-width: 480px;
+    margin: 25px auto 35px;
+    line-height: 1.8;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: left;
+}
+
+.card {
+    padding: 22px 16px;
+    border: 1px solid #333;
+    border-radius: 14px;
+    background: #151515;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-color: #c6ff00;
+    transform: translateY(-6px);
+}
+
+.number {
+    color: #c6ff00;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.card p {
+    color: #aaa;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.car {
+    font-size: 110px;
+    margin: 25px auto 10px;
+    animation: float 3s ease-in-out infinite;
+}
+
+.scroll-text {
+    color: #888;
+    font-size: 11px;
+    letter-spacing: 3px;
+    padding-bottom: 25px;
+}
+
+.second-section {
+    padding: 100px 20px;
+    text-align: center;
+    background: #111;
+}
+
+.second-section h2 {
+    font-size: clamp(35px, 7vw, 70px);
+    margin-bottom: 25px;
+}
+
+.second-section p {
+    color: #aaa;
+    line-height: 1.8;
+    max-width: 500px;
+    margin: auto;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 25px;
+    background: #c6ff00;
+    color: #080808;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #777;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        padding: 22px 5%;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .content {
+        padding-top: 45px;
+    }
+
+    .menu {
+        font-size: 9px;
+        padding: 9px;
+    }
+}
+
+@media (max-width: 350px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero" id="home">
+
+    <header>
+        <div class="logo">ITZ <span>FIZZ</span></div>
+        <div class="menu">SCROLL EXPERIENCE</div>
+    </header>
+
+    <main class="content">
+
+        <p class="small-text">WELCOME TO THE FUTURE</p>
+
+        <h1>ITZ <span>FIZZ</span></h1>
+
+        <p class="description">
+            Experience a bold digital world where creative design,
+            smooth animation and modern technology come together.
+        </p>
+
+        <div class="cards">
+
+            <article class="card">
+                <div class="number">01 / DESIGN</div>
+                <h3>Creative Design</h3>
+                <p>Bold visuals with a modern futuristic style.</p>
+            </article>
+
+            <article class="card">
+                <div class="number">02 / MOTION</div>
+                <h3>Smooth Animation</h3>
+                <p>Fluid movement for a better browsing experience.</p>
+            </article>
+
+            <article class="card">
+                <div class="number">03 / EXPERIENCE</div>
+                <h3>Modern Experience</h3>
+                <p>A clean layout designed to stand out.</p>
+            </article>
+
+            <article class="card">
+                <div class="number">04 / DEVICE</div>
+                <h3>Responsive Layout</h3>
+                <p>Designed for mobile and desktop screens.</p>
+            </article>
+
+        </div>
+
+        <div class="car">🏎️</div>
+
+        <p class="scroll-text">↓ SCROLL TO EXPLORE ↓</p>
+
+    </main>
+</section>
+
+<section class="second-section">
+
+    <h2>FEEL THE <span>SPEED</span></h2>
+
+    <p>
+        Innovation meets imagination. Explore a digital experience
+        built with creativity, motion and modern web technology.
+    </p>
+
+    <a href="#home" class="button">BACK TO TOP ↑</a>
+
+</section>
+
+<footer>
+    ITZ FIZZ · CREATIVE WEB EXPERIENCE
+</footer>
+
+</body>
+</html>
